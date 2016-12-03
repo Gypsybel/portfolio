@@ -9,6 +9,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<!-- Animate.css -->
+		<link rel="stylesheet" href="assets/css/animate.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
@@ -20,7 +22,6 @@
 
 		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-		<script type="text/javascript" src="assets/js/myscript.js"></script>
 
 	</head>
 	<body>
@@ -39,24 +40,12 @@
 
 					<!-- Nav -->
 						<nav id="nav">
-							<!--
 
-								Prologue's nav expects links in one of two formats:
-
-								1. Hash link (scrolls to a different section within the page)
-
-								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
-
-								2. Standard link (sends the user to another page/site)
-
-								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
-
-							-->
 							<ul>
-								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
-								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+								<li><a href="index.html" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
+								<li><a href="#dronesquad" id="dronesquad-link" class="skel-layers-ignoreHref"><span class="icon fa-fighter-jet">Drone Squad</span></a></li>
+								<li><a href="#doc2doc" id="doc2doc-link" class="skel-layers-ignoreHref"><span class="icon fa-user-md">Doc2Doc Rental</span></a></li>
+								<li><a href="#guiltypleasures" id="guiltypleasures-link" class="skel-layers-ignoreHref"><span class="icon fa-shopping-basket">Guilty Pleasures</span></a></li>
 							</ul>
 						</nav>
 
@@ -66,10 +55,9 @@
 
 					<!-- Social Icons -->
 						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
 							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon fa-file-text"><span class="label">Resume</span></a></li>
 							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 
@@ -80,118 +68,174 @@
 		<!-- Main -->
 			<div id="main">
 
-				<!-- Intro -->
-
-
-				<!-- Portfolio -->
-					<section id="portfolio" class="two">
+				<!-- Top -->
+					<figcaption id="top" class="zero">
 						<div class="container">
 
-							<header>
-								<h2>Portfolio</h2>
+							<header class="animate-box" data-animate-effect="fadeInLeft">
+								<h2>Projects</h2>
 							</header>
+						</div>
+					</figcaption>
 
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-							fusce hendrerit lacus ridiculus.</p>
+					<!-- Drone Squad -->
+						<section id="dronesquad" class="two">
+							<div class="container">
+
+								<header>
+									<h2 class="animate-box" data-animate-effect="fadeInLeft">Drone Squad</h2>
+								</header>
+								<p class="animate-box" data-animate-effect="fadeInLeft">Social Web App for Drone Enthusiasts. Created a proof of concept web app for the Drone Squad mobile app.</p>
+
+								<div class="row">
+									<div class="4u 12u$(mobile)">
+										<article class="item animate-box" data-animate-effect="fadeInLeft" >
+											<a href="#" class="image fit"><img src="images/ds_home.png" alt="" /></a>
+										</article>
+
+									</div>
+									<div class="4u 12u$(mobile)">
+										<article class="item animate-box" data-animate-effect="fadeInLeft">
+											<a href="#" class="image fit"><img src="images/ds_login.png" alt="" /></a>
+										</article>
+									</div>
+									<div class="4u 12u$(mobile)">
+										<article class="item animate-box" data-animate-effect="fadeInLeft">
+											<a href="#" class="image fit"><img src="images/ds_group.png" alt="" /></a>
+										</article>
+									</div>
+								</div>
 
 							<div class="row">
-								<div class="4u 12u$(mobile)">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+								<div class="6u 12u$(mobile)">
+									<article class="item animate-box" data-animate-effect="fadeInLeft" >
 										<header>
-											<h3>Ipsum Feugiat</h3>
+											<h1>Technologies</h1>
 										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-										<header>
-											<h3>Rhoncus Semper</h3>
-										</header>
+											<p class="animate-box" data-animate-effect="fadeInLeft">Node.js, Angular.js, Express, MongoDB/Mongoose, Google maps API, Instagram API, Materialize.</p>
 									</article>
 								</div>
-								<div class="4u 12u$(mobile)">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+								<div class="6u 12u$(mobile)">
+									<article class="item animate-box" data-animate-effect="fadeInLeft">
 										<header>
-											<h3>Magna Nullam</h3>
+											<h3>Role</h3>
 										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-										<header>
-											<h3>Natoque Vitae</h3>
-										</header>
+											<p class="animate-box" data-animate-effect="fadeInLeft"> Implemented controller middleware in addition to Angular factories and controllers for full CRUD functionality of events, groups, and members. Developed the user interface with consideration of cross browser and cross device compatibility.</p>
+
 									</article>
 								</div>
-								<div class="4u$ 12u$(mobile)">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-										<header>
-											<h3>Dolor Penatibus</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-										<header>
-											<h3>Orci Convallis</h3>
-										</header>
-									</article>
-								</div>
+
 							</div>
 
-						</div>
-					</section>
+							</div>
+						</section>
 
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
+						<!-- Doc2Doc -->
+							<section id="doc2doc" class="three">
+								<div class="container">
 
-							<header>
-								<h2>About Me</h2>
-							</header>
+									<header>
+										<h2 class="animate-box" data-animate-effect="fadeInLeft">Dco2Doc Rental</h2>
+									</header>
+									<p class="animate-box" data-animate-effect="fadeInLeft">A web application that enables medical professionals to rent or lend equipment. Currently under development, expected to go live early 2017</p>
 
-							<a href="#" class="image featured"><img src="images/Crystabel_1_SM.jpg" alt="" /></a>
+									<div class="row">
+										<div class="4u 12u$(mobile)">
+											<article class="item animate-box" data-animate-effect="fadeInLeft" >
+												<a href="#" class="image fit"><img src="images/dd_home.png" alt="" /></a>
+											</article>
 
-							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
-							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
-							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
-							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
-							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
-							ornare iaculis.</p>
+										</div>
+										<div class="4u 12u$(mobile)">
+											<article class="item animate-box" data-animate-effect="fadeInLeft">
+												<a href="#" class="image fit"><img src="images/dd_search.png" alt="" /></a>
+											</article>
+										</div>
+										<div class="4u 12u$(mobile)">
+											<article class="item animate-box" data-animate-effect="fadeInLeft">
+												<a href="#" class="image fit"><img src="images/dd_portal.png" alt="" /></a>
+											</article>
+										</div>
+									</div>
 
-						</div>
-					</section>
-
-				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
-
-							<header>
-								<h2>Contact</h2>
-							</header>
-
-							<p>Elementum sem parturient nulla quam placerat viverra
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
-
-							<form method="post" action="#">
 								<div class="row">
-									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="12u$">
-										<textarea name="message" placeholder="Message"></textarea>
+									<div class="6u 12u$(mobile)">
+										<article class="item animate-box" data-animate-effect="fadeInLeft" >
+											<header>
+												<h1>Technologies</h1>
+											</header>
+												<p class="animate-box" data-animate-effect="fadeInLeft">Ruby, Rails, Google maps API, Materialize, Photoshop, jQuery UI Datepicker, PostgressSQL</p>
+										</article>
 									</div>
-									<div class="12u$">
-										<input type="submit" value="Send Message" />
-									</div>
-								</div>
-							</form>
+									<div class="6u 12u$(mobile)">
+										<article class="item animate-box" data-animate-effect="fadeInLeft">
+											<header>
+												<h3>Role</h3>
+											</header>
+												<p class="animate-box" data-animate-effect="fadeInLeft"> Designed ERD in MySQL for Rails models. Maintained Wireframes for production. Developed the user interface with consideration of cross browser and cross device compatibility. Integrated Google Maps API to show product locations. Implemented jQuery UI datepicker functionality to select range of start and end date.</p>
 
-						</div>
-					</section>
+										</article>
+									</div>
+
+								</div>
+
+								</div>
+							</section>
+
+							<!-- Guilty Pleasures -->
+								<section id="guiltypleasures" class="four">
+									<div class="container">
+
+										<header>
+											<h2 class="animate-box" data-animate-effect="fadeInLeft">Guilty Pleasures</h2>
+										</header>
+										<p class="animate-box" data-animate-effect="fadeInLeft">Custom e-commerce web application specializing in pop culture fads and trends.</p>
+
+										<div class="row">
+											<div class="4u 12u$(mobile)">
+												<article class="item animate-box" data-animate-effect="fadeInLeft" >
+													<a href="#" class="image fit"><img src="images/gp_home.png" alt="" /></a>
+												</article>
+
+											</div>
+											<div class="4u 12u$(mobile)">
+												<article class="item animate-box" data-animate-effect="fadeInLeft">
+													<a href="#" class="image fit"><img src="images/gp_cart.png" alt="" /></a>
+												</article>
+											</div>
+											<div class="4u 12u$(mobile)">
+												<article class="item animate-box" data-animate-effect="fadeInLeft">
+													<a href="#" class="image fit"><img src="images/ds_group.png" alt="" /></a>
+												</article>
+											</div>
+										</div>
+
+									<div class="row">
+										<div class="6u 12u$(mobile)">
+											<article class="item animate-box" data-animate-effect="fadeInLeft" >
+												<header>
+													<h1>Technologies</h1>
+												</header>
+													<p class="animate-box" data-animate-effect="fadeInLeft">Python, Django, AJAX, Materialize, JQuery, MySQL Lite</p>
+											</article>
+										</div>
+										<div class="6u 12u$(mobile)">
+											<article class="item animate-box" data-animate-effect="fadeInLeft">
+												<header>
+													<h3>Role</h3>
+												</header>
+													<p class="animate-box" data-animate-effect="fadeInLeft"> Implemented backend functionality to store orders, users, carts, stock, and products. Produced controllers to grab backend information and render it to the frontend views.</p>
+
+											</article>
+										</div>
+
+									</div>
+
+									</div>
+								</section>
+
+
+
 
 			</div>
 
@@ -200,17 +244,18 @@
 
 				<!-- Copyright -->
 					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; LCRangel. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
-
 			</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.waypoints.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollzer.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
+
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 
