@@ -12,6 +12,8 @@
 		<!-- Animate.css -->
 		<link rel="stylesheet" href="assets/css/animate.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- MagnificPopup CSS -->
+		<link rel="stylesheet" href="assets/css/magnific-popup.css">
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<meta name="description" content="LCRangel"/>
@@ -40,19 +42,6 @@
 
 					<!-- Nav -->
 						<nav id="nav">
-							<!--
-
-								Prologue's nav expects links in one of two formats:
-
-								1. Hash link (scrolls to a different section within the page)
-
-								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
-
-								2. Standard link (sends the user to another page/site)
-
-								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
-
-							-->
 							<ul>
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
 								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
@@ -60,17 +49,16 @@
 								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
 							</ul>
 						</nav>
-
 				</div>
 
 				<div class="bottom">
 
 					<!-- Social Icons -->
 						<ul class="icons">
-							<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon fa-file-text"><span class="label">Resume</span></a></li>
-							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="https://www.linkedin.com/in/lcrangel" target="_blank" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/Gypsybel" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="images/cr_resume_2016.pdf" download class="icon fa-file-text"><span class="label">Resume</span></a></li>
+							<li><a href="mailto:crystabelrangel@gmail.com" target="_top" class="icon fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 
 				</div>
@@ -90,12 +78,12 @@
 							</header>
 
 							<footer class="animate-box" data-animate-effect="fadeInLeft">
-								<a href="projects.html" class="button scrolly">View My Work</a>
+								<a href="projects.html#top" class="button scrolly">View My Work</a>
 							</footer>
-							<a href="#about" class="arrow animate-box" data-animate-effect="fadeInLeft"><i class="icon fa-arrow-down" aria-hidden="true"></i></a>
-
 						</div>
+						<a id="arrow" href="#about" class="arrow animate-box" data-animate-effect="fadeInLeft"><i class="icon fa-arrow-down" aria-hidden="true"></i></a>
 					</section>
+
 
 				<!-- About Me -->
 					<section id="about" class="two">
@@ -105,21 +93,19 @@
 								<h2 class="animate-box" data-animate-effect="fadeInLeft" >About Me</h2>
 							</header>
 							<div class="row">
-								<div class="cbel_pic 4u 12u$(mobile)">
+								<div class="cbel_pic 4u 13u$(mobile)">
 									<article class="animate-box" data-animate-effect="fadeInLeft" >
 										<a href="#" class="image fit"><img src="images/Crystabel_1_SM.jpg" alt="" /></a>
 									</article>
 								</div>
 								<div class="cbel_about 6u 14u$(mobile)">
 									<article class="animate-box" data-animate-effect="fadeInLeft" >
-										<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
-											ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
-											laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
-											parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
-											dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
-											ornare iaculis.</p>
+										<p>I am a knowledge-driven, forward-thinker with a background in communication and psychology. My love for foreign languages and communication led me to learn programming languages.  I immediately fell in love with the creativity and problem solving aspects of coding. Drawing from my experiences in behavioral therapy, project management and client relations, I am improving my <span><img id="triforce" src="images/triforce.png" ></span>Triforce with the addition of technology.  I aspire to bridge the “language” barrier and use my drive and skill set to contribute to solutions that will help improve lives.</p>
 
 								</article>
+								</div>
+								<div class="12u 24u$(mobile)">
+									<p>On my free time I enjoy playing with my dogs Dixie and Dagwood, cooking, traveling, nail art, comics, and playing video games.</p>
 								</div>
 							</div>
 
@@ -165,6 +151,7 @@
 							</div>
 						</section>
 
+
 				<!-- Contact -->
 					<section id="contact" class="four">
 						<div class="container">
@@ -173,10 +160,7 @@
 								<h2 class="animate-box" data-animate-effect="fadeInLeft">Contact</h2>
 							</header>
 
-							<p class="animate-box" data-animate-effect="fadeInLeft">Elementum sem parturient nulla quam placerat viverra
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+							<p class="animate-box" data-animate-effect="fadeInLeft">I am always open for feedback and communication. Feel free to contact me if you have any questions, projects, or just want to talk!</p>
 
 							<form class="animate-box" data-animate-effect="fadeInLeft" method="post" action="https://formspree.io/crystabelrangel@gmail.com">
 								<div class="row">
@@ -192,7 +176,6 @@
 							</form>
 						</div>
 					</section>
-
 			</div>
 
 		<!-- Footer -->
@@ -200,7 +183,7 @@
 
 				<!-- Copyright -->
 					<ul class="copyright">
-						<li>&copy; LCRangel. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; LCRangel. All rights reserved.</li><li>"The future is not set. There's no fate but what we make for ourselves." - Terminator 2</li>
 					</ul>
 			</div>
 
@@ -211,6 +194,9 @@
 			<script src="assets/js/jquery.scrollzer.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
+			<!-- Magnifics Popup -->
+			<script src="assets/js/jquery.magnific-popup.min.js"></script>
+			<script src="assets/js/magnific-popup-options.js"></script>
 
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
