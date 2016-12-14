@@ -1550,7 +1550,6 @@
 
 /*About Section*/
 .cbel_about {
-	margin-left: 100px;
 	text-align: left;
 
 }
@@ -2215,7 +2214,7 @@
 			}
 
 			#main > section.one {
-				background-color: #81918E;
+				/*background-color: #81918E;*/
 				/*min-height: 200px;*/
 				background-image: url("../../images/lapurp.jpg");
 				background-attachment: fixed;
